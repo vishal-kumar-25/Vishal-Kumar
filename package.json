@@ -1,5 +1,5 @@
 {
-  "homepage":"https://vishal-kumar-25.github.io/Vishal-Kumar",
+  "homepage": "https://vishal-kumar-25.github.io/Vishal-Kumar",
   "name": "my-first-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist",
+    "start": "serve -s dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -19,7 +20,6 @@
     "react-bootstrap-icons": "^1.11.4",
     "react-dom": "^18.3.1",
     "react-multi-carousel": "^2.8.5"
-    
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -30,6 +30,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "gh-pages": "^6.1.1",
+    "serve": "^14.0.1",
     "vite": "^5.3.1"
   }
 }
