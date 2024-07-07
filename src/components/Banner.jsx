@@ -47,7 +47,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Hi, I'm Vishal Kumar`} <span className="wrap">{text}</span></h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quisquam rem consectetur ratione architecto. Excepturi laborum nesciunt blanditiis, ea incidunt hic et. Nesciunt, ex! Ducimus eius pariatur reiciendis exercitationem, odio laboriosam eaque provident atque? Eos id porro soluta? Sequi accusamus quidem aut quo reiciendis itaque fugit dolorem doloribus temporibus dolores.</p>
+            <p>Currently pursuing my B. Tech in Computer Science and Engineering from the Faculty of Engineering and Technology at Gurukula Kangri (Deemed To Be University) in Haridwar, I have honed my skills in both frontend and backend technologies.</p>
             <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
