@@ -34,23 +34,23 @@ export const Skills = () => {
                     <Col>
                         <div className="skills-bx">
                             <h2>Skills</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit magnam animi sequi tempora mollitia voluptate ad accusantium deleniti libero totam?</p>
+                           <p>I possess a diverse skill set that spans multiple areas of web development and programming. From crafting elegant frontend interfaces to building robust backend systems, I am proficient in various languages and technologies. Below is a comprehensive list of my technical and soft skills:</p>
                             <Carousel responsive={responsive} infinite={true} className="skills-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Web Development" /> {/* Line 44 */}
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Brand Identity" /> {/* Line 48 */}
-                                    <h5>Brand Identity</h5>
+                                    <img src={meter2} alt="Data Structure and Algorithm" /> {/* Line 48 */}
+                                    <h5>Data Structure and Algorithms(Java)</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Logo Design" /> {/* Line 52 */}
-                                    <h5>Logo Design</h5>
+                                    <img src={meter3} alt="Machine Learning" /> {/* Line 52 */}
+                                    <h5>Machine Learning</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Web Development" /> {/* Line 56 */}
-                                    <h5>Web Development</h5>
+                                    <img src={meter1} alt="Soft Skills" /> {/* Line 56 */}
+                                    <h5>Communication & Teamwork</h5>
                                 </div>
                             </Carousel>
                         </div>
