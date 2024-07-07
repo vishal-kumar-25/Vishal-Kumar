@@ -48,9 +48,9 @@ export const Projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis, assumenda accusantium qui corrupti dolore
-              consectetur?
+            Throughout my academic journey, I have worked on a variety of projects that showcase my skills in web development,
+             machine learning, and software engineering. Each project has provided me with valuable experience and the opportunity
+              to apply my technical knowledge in real-world scenarios. Below are some of the key projects I have undertaken:
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
@@ -76,8 +76,12 @@ export const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-                <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
+                <Tab.Pane eventKey="second"> <Row>
+                    {projects.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row></Tab.Pane>
+                <Tab.Pane eventKey="third">Lorem </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
