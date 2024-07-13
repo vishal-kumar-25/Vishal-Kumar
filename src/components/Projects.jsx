@@ -10,13 +10,13 @@ console.log(projImg1, projImg2, projImg3);
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Odyssey",
+      description: "Travel Destinations Website",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "ChatBot",
+      description: "For admission queries",
       imgUrl: projImg2,
     },
     {
@@ -34,11 +34,7 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: projImg2,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    
   ];
 
   return (
