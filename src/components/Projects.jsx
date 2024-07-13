@@ -20,21 +20,11 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "University Assignment Management Portal",
+      description: "For handling assingment in the University",
       imgUrl: projImg3,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    
+     
   ];
 
   return (
@@ -72,10 +62,7 @@ export const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second"> <Row>
-                    {projects.map((project, index) => {
-                      return <ProjectCard key={index} {...project} />;
-                    })}
+                <Tab.Pane eventKey="second">Lorem <Row>
                   </Row></Tab.Pane>
                 <Tab.Pane eventKey="third">Lorem </Tab.Pane>
               </Tab.Content>
