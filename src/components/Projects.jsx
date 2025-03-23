@@ -4,6 +4,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/AI based plant disease system.png";
 
 console.log(projImg1, projImg2, projImg3);
 
@@ -22,7 +23,7 @@ export const Projects = () => {
     {
       title: " AI-BASED PLANT DISEASE DETECTION SYSTEM ",
       description: "Collaborated in a team to develop an AI model using a Convolutional Neural Network(CNN) implemented with TensorFlow for detecting  plant diseases from leaf images.",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
     },
      
   ];
