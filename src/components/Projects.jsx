@@ -20,8 +20,8 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "University Assignment Management Portal",
-      description: "For handling assingment in the University",
+      title: " AI-BASED PLANT DISEASE DETECTION SYSTEM ",
+      description: "Collaborated in a team to develop an AI model using a Convolutional Neural Network(CNN) implemented with TensorFlow for detecting  plant diseases from leaf images.",
       imgUrl: projImg3,
     },
      
